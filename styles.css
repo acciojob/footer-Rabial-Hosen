@@ -1,1 +1,50 @@
 /* your code here */
+footer {
+        height: 300px;
+        width: 800px;
+        background-color: black;
+        color: white;
+        position: relative;
+      }
+      .top {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .logo-details {
+        font-size: 25px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 30px;
+      }
+      .media-icons {
+        padding: 30px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+      }
+      .link-boxes {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .row {
+        display: flex;
+        flex-direction: column;
+      }
+      a {
+        text-decoration: none;
+        color: #c0bcbc;
+      }
+      .bottom-details {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        background-color: #2c303a;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+      }
+ h3 {
+        text-decoration: underline;
+      }
+Footer
